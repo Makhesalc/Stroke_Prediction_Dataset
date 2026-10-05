@@ -53,7 +53,7 @@ def train_models(X):
     best_score = -np.inf
 
     # Avoid requesting more clusters than distinct patient patterns.
-    max_k = min(10, len(X) - 1, len(X.drop_duplicates()))
+    max_k = min(8, len(X) - 1, len(X.drop_duplicates()))
 
     if max_k < 2:
         raise ValueError("There are not enough distinct patient patterns.")

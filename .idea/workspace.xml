@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd214c9-9c85-480d-8baf-1474c8df5b91" name="Changes" comment="cluster model and its outputs">
-      <change afterPath="$PROJECT_DIR$/evaluate_clusters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6dd214c9-9c85-480d-8baf-1474c8df5b91" name="Changes" comment="cluster model, evaluation  and its outputs">
+      <change beforePath="$PROJECT_DIR$/cluster_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +36,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000276964906183" />
-      <entry key="MS500" value="1.1507615737737014" />
-      <entry key="S2" value="3.161900343928415" />
-      <entry key="S5" value="6.707721677730862" />
-      <entry key="S10" value="9.81469125996092" />
-      <entry key="S30" value="13.403886752033891" />
-      <entry key="S60" value="14.616686347541776" />
-      <entry key="M2" value="15.285286566518302" />
-      <entry key="M5" value="15.708339556040293" />
-      <entry key="M10" value="15.853186315877826" />
-      <entry key="M15" value="15.901904081009828" />
-      <entry key="M30" value="15.950841581057714" />
-      <entry key="H1" value="15.975501810917445" />
-      <entry key="H2" value="16.005763929004654" />
-      <entry key="H4" value="16.23821481982615" />
-      <entry key="D1" value="20.927646046248043" />
-      <entry key="W1" value="26.50422064016292" />
+      <entry key="MS100" value="1.0000000194928502" />
+      <entry key="MS500" value="1.0387030111469404" />
+      <entry key="S2" value="1.727949321131924" />
+      <entry key="S5" value="2.3321812406479028" />
+      <entry key="S10" value="2.631724806960822" />
+      <entry key="S30" value="2.8736492072230204" />
+      <entry key="S60" value="3.214553159985392" />
+      <entry key="M2" value="5.086963696798604" />
+      <entry key="M5" value="10.1151224740212" />
+      <entry key="M10" value="13.672830555756192" />
+      <entry key="M15" value="15.215585355680673" />
+      <entry key="M30" value="16.980615236101027" />
+      <entry key="H1" value="17.956436541152126" />
+      <entry key="H2" value="18.48687451661777" />
+      <entry key="H4" value="18.972842508982872" />
+      <entry key="D1" value="23.87026692241669" />
+      <entry key="W1" value="29.493828966217134" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -75,23 +74,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.952664200505158" />
-      <entry key="MS500" value="1.1390328608703733" />
-      <entry key="S2" value="3.12379959710619" />
-      <entry key="S5" value="6.662774718545919" />
-      <entry key="S10" value="9.78163859837958" />
-      <entry key="S30" value="13.389493266370646" />
-      <entry key="S60" value="14.608979370603075" />
-      <entry key="M2" value="15.281297635324353" />
-      <entry key="M5" value="15.706710404317597" />
-      <entry key="M10" value="15.85236605122308" />
-      <entry key="M15" value="15.901355966792337" />
-      <entry key="M30" value="15.950566886647076" />
-      <entry key="H1" value="15.975364303870197" />
-      <entry key="H2" value="16.00569511695853" />
-      <entry key="H4" value="16.23817914358204" />
-      <entry key="D1" value="20.927590359493816" />
-      <entry key="W1" value="26.504201385109333" />
+      <entry key="MS100" value="0.005048272201799353" />
+      <entry key="MS500" value="0.3856726342552902" />
+      <entry key="S2" value="1.4941421469993883" />
+      <entry key="S5" value="2.23072075502259" />
+      <entry key="S10" value="2.5795393493832006" />
+      <entry key="S30" value="2.8559110351985155" />
+      <entry key="S60" value="3.2054952278989086" />
+      <entry key="M2" value="5.081944621684575" />
+      <entry key="M5" value="10.112594260790694" />
+      <entry key="M10" value="13.671383100865306" />
+      <entry key="M15" value="15.21456746495853" />
+      <entry key="M30" value="16.980076042838725" />
+      <entry key="H1" value="17.956158588802428" />
+      <entry key="H2" value="18.486733326395818" />
+      <entry key="H4" value="18.972770111117825" />
+      <entry key="D1" value="23.870205170773133" />
+      <entry key="W1" value="29.493808830499095" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -149,7 +148,7 @@
       <updated>1789919369194</updated>
       <workItem from="1789919370171" duration="2391000" />
       <workItem from="1790614921950" duration="8586000" />
-      <workItem from="1791219372452" duration="955000" />
+      <workItem from="1791219372452" duration="1352000" />
     </task>
     <task id="LOCAL-00001" summary="code update">
       <option name="closed" value="true" />
@@ -175,7 +174,23 @@
       <option name="project" value="LOCAL" />
       <updated>1791220011447</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cluster model, evaluation  and its outputs">
+      <option name="closed" value="true" />
+      <created>1791220356404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1791220356405</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cluster model, evaluation  and its outputs">
+      <option name="closed" value="true" />
+      <created>1791220363723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1791220363724</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +200,8 @@
     <MESSAGE value="code update" />
     <MESSAGE value="code update and outputs for basic analysis" />
     <MESSAGE value="cluster model and its outputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="cluster model and its outputs" />
+    <MESSAGE value="cluster model, evaluation  and its outputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="cluster model, evaluation  and its outputs" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Stroke_Prediction_Dataset$load_data.coverage" NAME="load_data Coverage Results" MODIFIED="1790616302004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
