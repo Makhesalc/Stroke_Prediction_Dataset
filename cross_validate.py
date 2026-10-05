@@ -20,7 +20,7 @@ PROJECT_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = PROJECT_DIR / "outputs"
 
 N_FOLDS = 5
-CLUSTER_COUNTS = range(2, 11)
+CLUSTER_COUNTS = range(2, 9)
 
 
 def prepare_original_data():
