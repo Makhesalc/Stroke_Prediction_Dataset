@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd214c9-9c85-480d-8baf-1474c8df5b91" name="Changes" comment="code update">
-      <change afterPath="$PROJECT_DIR$/preprocess.py" afterDir="false" />
+    <list default="true" id="6dd214c9-9c85-480d-8baf-1474c8df5b91" name="Changes" comment="code update and outputs for basic analysis">
+      <change afterPath="$PROJECT_DIR$/cluster_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,37 +23,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Makhesalc"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Makhesalc&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Makhesalc/Stroke_Prediction_Dataset.git",
-    "accountId": "80480640-849d-4cbc-b320-04326cc3bffd"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Makhesalc/Stroke_Prediction_Dataset.git&quot;,
+    &quot;accountId&quot;: &quot;80480640-849d-4cbc-b320-04326cc3bffd&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000041114305937" />
-      <entry key="MS500" value="1.1338554478254534" />
-      <entry key="S2" value="1.7887752559195802" />
-      <entry key="S5" value="2.326554344737634" />
-      <entry key="S10" value="2.617695254873307" />
-      <entry key="S30" value="2.860578388341416" />
-      <entry key="S60" value="2.928656451106513" />
-      <entry key="M2" value="2.963909181117307" />
-      <entry key="M5" value="2.9854616771262634" />
-      <entry key="M10" value="2.992713719142998" />
-      <entry key="M15" value="2.9951386661560853" />
-      <entry key="M30" value="2.9975674241974053" />
-      <entry key="H1" value="2.998783921974435" />
-      <entry key="H2" value="3.001878975913028" />
-      <entry key="H4" value="3.149319266610332" />
-      <entry key="D1" value="7.546708452480177" />
-      <entry key="W1" value="11.163552384504865" />
+      <entry key="MS100" value="1.0000102076158683" />
+      <entry key="MS500" value="1.1112661398337809" />
+      <entry key="S2" value="2.3269827610833893" />
+      <entry key="S5" value="4.147929816605014" />
+      <entry key="S10" value="5.559638004388823" />
+      <entry key="S30" value="7.025243572972843" />
+      <entry key="S60" value="7.488416003372051" />
+      <entry key="M2" value="7.737798232354205" />
+      <entry key="M5" value="7.893532402606557" />
+      <entry key="M10" value="7.946497556635398" />
+      <entry key="M15" value="7.9642716929464825" />
+      <entry key="M30" value="7.982105766100394" />
+      <entry key="H1" value="7.991154195865666" />
+      <entry key="H2" value="8.013606518964565" />
+      <entry key="H4" value="8.242208855878225" />
+      <entry key="D1" value="12.928558461364695" />
+      <entry key="W1" value="18.50439291472919" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -74,23 +75,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526774375224135" />
-      <entry key="MS500" value="1.1230766793578804" />
-      <entry key="S2" value="1.7842018442273364" />
-      <entry key="S5" value="2.323917260681698" />
-      <entry key="S10" value="2.6161420135386595" />
-      <entry key="S30" value="2.859993604691009" />
-      <entry key="S60" value="2.928354548991148" />
-      <entry key="M2" value="2.9637557588879964" />
-      <entry key="M5" value="2.9853997027737074" />
-      <entry key="M10" value="2.992682630007877" />
-      <entry key="M15" value="2.9951179173301847" />
-      <entry key="M30" value="2.9975570383969115" />
-      <entry key="H1" value="2.9987787259465715" />
-      <entry key="H2" value="3.00187587639611" />
-      <entry key="H4" value="3.1493029052889416" />
-      <entry key="D1" value="7.546631968392288" />
-      <entry key="W1" value="11.163532791992337" />
+      <entry key="MS100" value="0.9592739792320053" />
+      <entry key="MS500" value="1.1021995069599968" />
+      <entry key="S2" value="2.32216867294822" />
+      <entry key="S5" value="4.144178041496223" />
+      <entry key="S10" value="5.556996042029973" />
+      <entry key="S30" value="7.024088905772856" />
+      <entry key="S60" value="7.487794745723047" />
+      <entry key="M2" value="7.737475729469841" />
+      <entry key="M5" value="7.893400428985615" />
+      <entry key="M10" value="7.9464310638184354" />
+      <entry key="M15" value="7.9642272511574905" />
+      <entry key="M30" value="7.982083488382766" />
+      <entry key="H1" value="7.99114304257467" />
+      <entry key="H2" value="8.013600920173756" />
+      <entry key="H4" value="8.242204794968421" />
+      <entry key="D1" value="12.928508042534924" />
+      <entry key="W1" value="18.50437441250419" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -110,7 +111,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.analysis.executor": "Run",
     "Python.clean_data.executor": "Run",
+    "Python.cluster_model.executor": "Run",
     "Python.load_data.executor": "Run",
+    "Python.preprocess.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -144,7 +147,8 @@
       <option name="presentableId" value="Default" />
       <updated>1789919369194</updated>
       <workItem from="1789919370171" duration="2391000" />
-      <workItem from="1790614921950" duration="7222000" />
+      <workItem from="1790614921950" duration="8586000" />
+      <workItem from="1791219372452" duration="340000" />
     </task>
     <task id="LOCAL-00001" summary="code update">
       <option name="closed" value="true" />
@@ -154,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790701268769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="code update and outputs for basic analysis">
+      <option name="closed" value="true" />
+      <created>1790754372765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790754372765</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,11 +174,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code update" />
-    <option name="LAST_COMMIT_MESSAGE" value="code update" />
+    <MESSAGE value="code update and outputs for basic analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="code update and outputs for basic analysis" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Stroke_Prediction_Dataset$load_data.coverage" NAME="load_data Coverage Results" MODIFIED="1790616302004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stroke_Prediction_Dataset$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1791219656405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stroke_Prediction_Dataset$clean_data.coverage" NAME="clean_data Coverage Results" MODIFIED="1790617245517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Stroke_Prediction_Dataset$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1790701341319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stroke_Prediction_Dataset$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1791219409956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stroke_Prediction_Dataset$cluster_model.coverage" NAME="cluster_model Coverage Results" MODIFIED="1791219706268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

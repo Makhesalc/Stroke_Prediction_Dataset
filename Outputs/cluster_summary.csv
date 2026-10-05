@@ -1,0 +1,4 @@
+cluster,patient_count,average_age,average_bmi,average_glucose,hypertension_proportion,heart_disease_proportion,recorded_stroke_cases,known_stroke_records,recorded_stroke_percentage
+0,3004,52.29,30.7,89.16,0.1,0.05,153,3004,5.09
+1,701,60.91,33.02,204.34,0.26,0.16,93,701,13.27
+2,1405,15.03,22.85,93.48,0.0,0.0,3,1405,0.21
